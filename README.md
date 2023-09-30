@@ -1,4 +1,4 @@
-# Bitbucket Pipelines Pipe: git-crypt-pipe
+# Bitbucket Git Crypt Pipe
 
 Decrypts `git-crypt` encrypted repositories in Bitbucket Pipelines.
 
