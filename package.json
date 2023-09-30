@@ -5,8 +5,7 @@
   "devDependencies": {
     "@codedependant/semantic-release-docker": "^4.4.0",
     "bun-types": "latest",
-    "semantic-release": "^22.0.5",
-    "semantic-release-npm-github-publish": "^1.5.4"
+    "semantic-release": "^22.0.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
