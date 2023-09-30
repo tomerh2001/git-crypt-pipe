@@ -1,0 +1,5 @@
+services:
+  git-crypt-pipe:
+    image: git-crypt-pipe:latest
+    build:
+      dockerfile: ./Dockerfile
