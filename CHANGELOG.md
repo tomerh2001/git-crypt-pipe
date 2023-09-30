@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.1.10...v1.2.0) (2023-09-30)
+
+
+### Features
+
+* :page_facing_up: added pipe.yml ([08d265c](https://github.com/tomerh2001/git-crypt-pipe/commit/08d265c9946e00a3152fd20ce6870875b39884ea))
+
 ## [1.1.10](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.1.9...v1.1.10) (2023-09-30)
 
 
