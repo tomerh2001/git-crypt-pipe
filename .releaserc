@@ -1,7 +1,11 @@
 {
-    "branches": ['main'],
+    "branches": ["main"],
     "extends": "semantic-release-npm-github-publish",
-    "plugins": [
-        "@codedependant/semantic-release-docker"
-    ]
+    "plugins":
+        [
+            [
+                "@codedependant/semantic-release-docker",
+                { dockerRegistry: "ghcr.io" },
+            ],
+        ],
 }
