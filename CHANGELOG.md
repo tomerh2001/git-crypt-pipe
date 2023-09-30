@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.2.0...v1.2.1) (2023-09-30)
+
+
+### Bug Fixes
+
+* added git safe directory in pipeline ([b5e3885](https://github.com/tomerh2001/git-crypt-pipe/commit/b5e3885d8eb119542a41deddca2e53d7b79bab4c))
+
 # [1.2.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.1.10...v1.2.0) (2023-09-30)
 
 
