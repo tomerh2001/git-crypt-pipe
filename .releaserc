@@ -1,5 +1,13 @@
-branches:
-    - main
-extends: "semantic-release-npm-github-publish"
-plugins:
-    - "@codedependant/semantic-release-docker"
+{
+    "branches": ["main"],
+    "extends": "semantic-release-npm-github-publish",
+    "plugins":
+        [
+            [
+                "@codedependant/semantic-release-docker",
+                {
+                    dockerImage: "tomerh2001/git-crypt-pipe"
+                }
+            ],
+        ],
+}
