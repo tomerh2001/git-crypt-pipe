@@ -1,0 +1,31 @@
+name: Semantic Versioning
+
+on:
+  push:
+    branches:
+      - main # or master, or whichever branch you want this to run on
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v1
+    
+    - name: Install Dependencies
+      run: bun i --dev 
+
+    - name: Semantic Release
+      run: bunx semantic-release
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
