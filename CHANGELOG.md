@@ -1,3 +1,11 @@
+## [1.1.10](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.1.9...v1.1.10) (2023-09-30)
+
+
+### Bug Fixes
+
+* added @semantic-release/git @semantic-release/github @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog ([e60fa04](https://github.com/tomerh2001/git-crypt-pipe/commit/e60fa04ae5b9540c3dc46aad6299d6bc4383d6a8))
+* removed semantic-release-npm-github-publish ([676cff0](https://github.com/tomerh2001/git-crypt-pipe/commit/676cff0ab93397d7a5a54a5039b8390d2d42341c))
+
 # 1.0.0 (2023-09-30)
 
 
