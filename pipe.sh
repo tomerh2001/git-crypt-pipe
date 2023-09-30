@@ -7,6 +7,9 @@ if [ -z "$SECRETS_KEY" ]; then
 fi
 
 git config --global --add safe.directory /repo
+git config --global --add safe.directory /opt/atlassian/pipelines/agent/build
+git config --global --add safe.directory ${PWD}
+
 echo "$SECRETS_KEY" | base64 -d > /tmp/secrets.key
 echo "Wrote secrets key to /tmp/secrets.key"
 
