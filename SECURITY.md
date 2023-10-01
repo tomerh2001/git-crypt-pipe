@@ -45,4 +45,4 @@ This policy will be reviewed annually or after any significant incident.
 
 ## 8. Contact
 
-For any queries or concerns regarding this security policy, go f* yourself.
+For any queries or concerns regarding this security policy, eat a biscuit.
