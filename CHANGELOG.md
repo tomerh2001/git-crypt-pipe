@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.2...v1.3.3) (2023-10-01)
+
+
+### Bug Fixes
+
+* Create SECURITY.md ([b2ee928](https://github.com/tomerh2001/git-crypt-pipe/commit/b2ee92882ac873032df78d1598241f31788f1add))
+
 ## [1.3.2](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.1...v1.3.2) (2023-10-01)
 
 
