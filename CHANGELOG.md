@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.2.1...v1.3.0) (2023-10-01)
+
+
+### Features
+
+* :technologist: imported template ([b708a38](https://github.com/tomerh2001/git-crypt-pipe/commit/b708a389784b462824c4c50bf23c51ba2ed11b91))
+
 ## [1.2.1](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.2.0...v1.2.1) (2023-09-30)
 
 
