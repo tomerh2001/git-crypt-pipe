@@ -8,7 +8,7 @@ Add the following snippet to the script section of your `bitbucket-pipelines.yml
 
 ```yaml
 script:
-  - pipe: tomerh2001/git-crypt-pipe:latest
+  - pipe: docker://tomerh2001/git-crypt-pipe:latest
     variables:
       SECRETS_KEY: $SECRETS_KEY
 ```
