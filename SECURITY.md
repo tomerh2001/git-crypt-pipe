@@ -1,12 +1,12 @@
-# `git-crypt-pipe` Security Policy
+# Security Policy
 
 ## 1. Purpose
 
-This document provides guidelines and procedures for maintaining the security and integrity of the `git-crypt-pipe` repository.
+This document provides guidelines and procedures for maintaining the security and integrity of the repository.
 
 ## 2. Scope
 
-This policy applies to all contributors, maintainers, and users of the `git-crypt-pipe` repository.
+This policy applies to all contributors, maintainers, and users of the repository.
 
 ## 3. Repository Security
 
