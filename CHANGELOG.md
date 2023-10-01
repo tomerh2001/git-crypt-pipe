@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.0...v1.3.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* :zap: ([3f8a1a2](https://github.com/tomerh2001/git-crypt-pipe/commit/3f8a1a2d766ec7b89b2460788cf34105c36f91c9))
+
 # [1.3.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.2.1...v1.3.0) (2023-10-01)
 
 
