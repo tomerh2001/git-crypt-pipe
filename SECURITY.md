@@ -45,4 +45,4 @@ This policy will be reviewed annually or after any significant incident.
 
 ## 8. Contact
 
-For any queries or concerns regarding this security policy, eat a biscuit.
+For any queries or concerns regarding this security policy, eat a biscuit. (tomerh2001@gmail.com)
