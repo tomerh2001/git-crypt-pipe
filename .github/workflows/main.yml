@@ -16,19 +16,23 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup Bun
       uses: oven-sh/setup-bun@v1
     
     - name: Install Dependencies
-      run: bun i --dev 
+      run: bun i --dev
+
+    # Authenticate with ghcr.io
+    - name: Authenticate with ghcr.io
+      run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
     - name: Semantic Release
       run: bunx semantic-release
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_REPO: ${{ github.server_url }}/${{ github.repository }}
         DOCKER_REGISTRY_USER: ${{ secrets.DOCKER_REGISTRY_USER }}
         DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
-
