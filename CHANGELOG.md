@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.3...v1.4.0) (2025-03-31)
+
+
+### Features
+
+* **pipe:** add GIT_STASH variable to support stashing changes during decryption ([d386a3e](https://github.com/tomerh2001/git-crypt-pipe/commit/d386a3e54c05cf0aaf401736210555a096baffa3))
+
 ## [1.3.3](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.2...v1.3.3) (2023-10-01)
 
 
