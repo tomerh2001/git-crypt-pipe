@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cat package.json | jq .version
+
 # Check for the presence of the SECRETS_KEY environment variable
 if [ -z "$SECRETS_KEY" ]; then
     echo "SECRETS_KEY environment variable is missing."
