@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.4.0...v1.4.1) (2025-03-31)
+
+
+### Bug Fixes
+
+* **docker:** add jq to Dockerfile and output package version in pipe.sh ([edb797f](https://github.com/tomerh2001/git-crypt-pipe/commit/edb797fb83d5124f47e2cb8e04a61523420149d4))
+
 # [1.4.0](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.3.3...v1.4.0) (2025-03-31)
 
 
