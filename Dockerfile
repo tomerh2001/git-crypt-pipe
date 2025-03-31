@@ -6,7 +6,7 @@ ENV SECRET_KEY=$SECRET_KEY
 VOLUME /repo
 WORKDIR /repo
 
-RUN apk add --update --no-cache bash git git-crypt jq
+RUN apk add --update --no-cache bash git git-crypt
 COPY pipe.sh /
 
 ENTRYPOINT ["/pipe.sh"]
