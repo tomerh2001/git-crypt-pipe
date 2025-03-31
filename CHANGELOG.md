@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.4.1...v1.4.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* **pipe:** remove jq from Dockerfile and improve stash handling in pipe.sh ([1230e37](https://github.com/tomerh2001/git-crypt-pipe/commit/1230e372adf09166d61defa1728656e007ca1210))
+
 ## [1.4.1](https://github.com/tomerh2001/git-crypt-pipe/compare/v1.4.0...v1.4.1) (2025-03-31)
 
 
