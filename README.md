@@ -16,6 +16,7 @@ script:
   - pipe: docker://tomerh2001/git-crypt-pipe:latest
     variables:
       SECRETS_KEY: $SECRETS_KEY
+      # GIT_STASH: 'true' # Optional
 ```
 
 ## Variables
@@ -23,6 +24,7 @@ script:
 | Name         | Usage                                        | Type     |
 |--------------|----------------------------------------------|----------|
 | `SECRETS_KEY`| The base64 encoded git-crypt key.            | Mandatory|
+| `GIT_STASH`| When true, runs `git stash` before decrypting, and `git stash apply` after.            | Optional|
 
 ## Details
 

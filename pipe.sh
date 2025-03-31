@@ -10,9 +10,19 @@ git config --global --add safe.directory /repo
 git config --global --add safe.directory /opt/atlassian/pipelines/agent/build
 git config --global --add safe.directory ${PWD}
 
+if [ $GIT_STASH = "true" ]; then
+    echo "Stashing changes"
+    git stash
+fi
+
 echo "$SECRETS_KEY" | base64 -d > /tmp/secrets.key
 echo "Wrote secrets key to /tmp/secrets.key"
 
 git-crypt unlock /tmp/secrets.key
 rm -f /tmp/secrets.key
 echo "Decrypted git-crypt files"
+
+if [ $GIT_STASH = "true" ]; then
+    echo "Applying stash"
+    git stash apply
+fi

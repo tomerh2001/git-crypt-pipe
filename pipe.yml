@@ -7,10 +7,12 @@ maintainer:
   name: Tomer Horowitz
   website: https://github.com/tomerh2001/git-crypt-pipe
 tags:
-  - git-crypt
-  - security
-  - decryption
-  - bitbucket-pipeline
+- git-crypt
+- security
+- decryption
+- bitbucket-pipeline
 variables:
-  - name: SECRETS_KEY
-    default: $SECRETS_KEY
+- name: SECRETS_KEY
+  default: $SECRETS_KEY
+- name: GIT_STASH
+  default: "true"
