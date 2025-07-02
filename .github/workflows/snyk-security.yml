@@ -34,7 +34,7 @@ jobs:
         run: bun i --dev
         
       - name: Set up Snyk CLI to check for security issues      
-        uses: snyk/actions/setup@efcc6132b1fc8f13a1c44f5da291119718006253
+        uses: snyk/actions/setup@28606799782bc8e809f4076e9f8293bc4212d05e
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       
